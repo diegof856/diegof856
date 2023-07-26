@@ -1,4 +1,4 @@
-## Olá! Eu sou Diego Felipe 👋
+## Olá! Eu sou Diego 👋
 
 
 
@@ -23,5 +23,5 @@
 </div>
 
 
-< !-- ![Snake animation](https://github.com/diegof856/diegof856/blob/output/github-contribution-grid-snake.svg) -- >
+<!--![Snake animation](https://github.com/diegof856/diegof856/blob/output/github-contribution-grid-snake.svg) -- >
 
