@@ -1,97 +1,74 @@
-# 🐐 Diego Felipe Account
+<h1 align="left"># 🐐 Diego Felipe Account</h1>
 
-🎓 Estudante de Sistemas de Informação  
-💻 Desenvolvedor em formação  
-🚀 Interessado em desenvolvimento backend, arquitetura de software e APIs
+###
 
----
+<h2 align="left">🎓 Estudante de Sistemas de Informação  <br>💻 Desenvolvedor em formação  <br>🚀 Interessado em desenvolvimento backend, arquitetura de software e APIs</h2>
 
-## 🧠 Sobre mim
+###
 
-Sou apaixonado por tecnologia e estou em constante evolução na área de desenvolvimento de software. Atualmente estou focado em construir uma base sólida em:
+<h3 align="left">🧠 Sobre mim</h3>
 
-- Estrutura de Dados
-- Arquitetura de Software
-- Desenvolvimento Web
-- APIs REST
-- Microsserviços
+###
 
-Tenho experiência prática com projetos acadêmicos e pessoais, principalmente utilizando Java, TypeScript e Node.js.
+<h4 align="left">Sou apaixonado por tecnologia e estou em constante evolução na área de desenvolvimento de software. Atualmente estou focado em construir uma base sólida em:</h4>
 
----
+###
 
-## 🛠️ Tecnologias e Ferramentas
+<h4 align="left">- Estrutura de Dados<br>- Arquitetura de Software<br>- Desenvolvimento Web<br>- APIs REST<br>- Microsserviços</h4>
 
-### 💻 Linguagens
-- Java
-- JavaScript
-- TypeScript
+###
 
-### ⚙️ Backend
-- Node.js
-- Express
-- Spring (Java)
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="40" alt="dart logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
+</div>
 
-### 🗄️ Banco de Dados
-- PostgreSQL
-- MongoDB
 
-### 🧩 Outras ferramentas
-- Git & GitHub
-- Figma
-- REST APIs
-- JSON / HTTP
+###
 
----
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/diegofelipeti)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/diegofelipe_1)
+[![Gmail](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail)](mailto:diegofelipe1025@gmail.com)
 
-## 📚 Atualmente estudando
+###
 
-- Microsserviços
-- Padrões de Projeto (Design Patterns)
-- Arquitetura limpa (Clean Architecture)
-- React.js
-- Visão computacional
----
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=diegof856&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=diegof856&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+</div>
 
-## 📂 Projetos
+###
 
-🔹 **ListaContatos_Mediator**
-- Projeto baseado no padrão de projeto Mediator, com foco em organização e desacoplamento de comunicação entre componentes.
+<img style="width: 100%;" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&color=gradient" />
 
-🔹 **Plataforma de Microsserviços (Bico Digital) (Atualmente)**
-- Modelo baseado em recompensas (bounty)
-- Foco em economia sob demanda
 
-🔹 **Flights_Project**
-- Aplicação voltada para gerenciamento de voos, explorando conceitos de backend e estruturação de dados.
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=diegof856.diegof856&"  />
+</div>
 
-🔹 **Flights_Project**
-- API REST para cadastro e gerenciamento de usuários, utilizando boas práticas de desenvolvimento backend.
-
-### ⭐ **Projeto em Destaque**
-#### 🔗 https://github.com/diegof856/Programacao_IV/tree/main/Codigo_FullStack_IV
-Projeto fullstack mais completo, envolvendo:
-- Integração entre frontend e backend
-- Manipulação de dados
-- Estruturação de aplicação completa
-- Uso de boas práticas de desenvolvimento
----
-## Stats
-![Diego felipe stats' GitHub stats](https://github-readme-stats.vercel.app/api?username=diegof856&show_icons=true&theme=gruvbox)
-## 📫 Contato
-
-<a href="https://www.linkedin.com/in/diegofelipeti/" target="blank">
-  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
-</a>
-<a href="https://www.instagram.com/diegofelipe_1/" target="blank">
-  <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
-</a>
----
-
-## ⚡ Objetivo
-
-Busco minha primeira oportunidade como desenvolvedor para aplicar meus conhecimentos, aprender com profissionais experientes e crescer na área de tecnologia.
-
----
-
-⭐ Se quiser trocar ideia sobre tecnologia ou projetos, fique à vontade para me chamar!
+###
