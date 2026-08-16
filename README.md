@@ -57,10 +57,10 @@
 
 ###
 
-<div align="center">
+
   <img src="./assets/streak.svg" height="150" alt="streak graph" />
   <img src="./assets/trophy.svg" height="150" alt="trophy graph" />
-</div>
+
 
 ![Snake animation](https://raw.githubusercontent.com/diegof856/diegof856/output/github-contribution-grid-snake-dark.svg)
 
