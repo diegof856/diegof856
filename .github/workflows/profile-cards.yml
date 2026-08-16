@@ -19,8 +19,8 @@ jobs:
       - name: Download updated SVGs
         run: |
           mkdir -p assets
-          curl -s "https://streak-stats.demolab.com?user=diegof856&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" -o assets/streak.svg
-          curl -s "https://github-profile-trophy.vercel.app?username=diegof856&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" -o assets/trophy.svg
+          curl -sL -A "Mozilla/5.0" "https://streak-stats.demolab.com?user=diegof856&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" -o assets/streak.svg
+          curl -sL -A "Mozilla/5.0" "https://github-profile-trophy.vercel.app?username=diegof856&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" -o assets/trophy.svg
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
