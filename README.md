@@ -56,10 +56,8 @@
 [![Gmail](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail)](mailto:diegofelipe1025@gmail.com)
 
 ###
-<div>
-    <img src="./assets/streak.svg" height="150" alt="streak graph" />
-  <img src="./assets/trophy.svg" height="150" alt="trophy graph" />
-</div>
+![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=diegof856)
+[![GitHub Streak](https://streak-stats.demolab.com?user=diegof856)](https://git.io/streak-stats)
 
 
 

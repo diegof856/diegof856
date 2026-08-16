@@ -1,37 +1,43 @@
-name: Update Profile Cards
+name: Daily Contribution
 
 on:
   schedule:
-    # Executa automaticamente todos os dias à meia-noite (UTC)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Permite rodar manualmente no painel do GitHub
+    # Executa todos os dias às 12:00 UTC
+    - cron: "0 12 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  update-assets:
+  contribution:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Create assets directory
-        run: mkdir -p assets
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Download Streak SVG
-        uses: wei/curl@v1
-        with:
-          args: -sL -A "Mozilla/5.0" "https://streak-stats.demolab.com?user=diegof856&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" -o assets/streak.svg
+      - name: Update contribution file
+        run: |
+          echo "Última atualização: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > contribution.txt
 
-      - name: Download Trophy SVG
-        uses: wei/curl@v1
-        with:
-          args: -sL -A "Mozilla/5.0" "https://github-profile-trophy.vercel.app?username=diegof856&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" -o assets/trophy.svg
+      - name: Commit changes
+        run: |
+          git add contribution.txt
 
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para realizar."
+            exit 0
+          fi
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update profile streak and trophies SVGs"
-          file_pattern: 'assets/*.svg'
+          git commit -m "chore: update daily contribution"
+
+      - name: Push changes
+        run: |
+          git push
