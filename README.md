@@ -56,7 +56,9 @@
 [![Gmail](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail)](mailto:diegofelipe1025@gmail.com)
 
 ###
-
+<div>
+![Snake animation](https://raw.githubusercontent.com/diegof856/diegof856/output/github-contribution-grid-snake-dark.svg)
+</div>
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=diegof856&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=diegof856&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
