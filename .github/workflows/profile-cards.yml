@@ -2,9 +2,8 @@ name: Update Profile Cards
 
 on:
   schedule:
-    # Executa automaticamente todos os dias à meia-noite (UTC)
     - cron: '0 0 * * *'
-  workflow_dispatch: # Permite rodar manualmente no painel do GitHub
+  workflow_dispatch:
 
 jobs:
   update-assets:
@@ -16,11 +15,32 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download updated SVGs
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Download SVGs with Python
         run: |
-          mkdir -p assets
-          curl -sL -A "Mozilla/5.0" "https://streak-stats.demolab.com?user=diegof856&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3" -o assets/streak.svg
-          curl -sL -A "Mozilla/5.0" "https://github-profile-trophy.vercel.app?username=diegof856&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" -o assets/trophy.svg
+          import urllib.request
+          import os
+
+          os.makedirs("assets", exist_ok=True)
+          headers = {'User-Agent': 'Mozilla/5.0'}
+
+          urls = {
+              "assets/streak.svg": "https://streak-stats.demolab.com?user=diegof856&locale=en&mode=daily&theme=radical&hide_border=false&border_radius=5&order=3",
+              "assets/trophy.svg": "https://github-profile-trophy.vercel.app?username=diegof856&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4"
+          }
+
+          for path, url in urls.items():
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req) as response, open(path, 'wb') as f:
+                  f.write(response.read())
+        shell: python
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
